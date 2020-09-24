@@ -1,0 +1,191 @@
+body{
+    background-color: #f3d4b4;
+  padding-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'Open Sans', sans-serif;
+   font-style: italic;
+     color: #1A405F;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+p.member {
+  font-size: 17px;
+  text-align: right;
+  font-style: italic;
+  font-weight: 900;
+  color: #58373E;
+}
+p.naziv{
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  height: 50px;
+
+}
+h2.featured{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #58373E;
+
+
+}
+.btn {
+  font-family: 'Pacifico';
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 16px;
+  background-color: #58373E;
+  color:	#E5AB6B;
+}
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn.active:focus {
+    outline: 0 none;
+}
+.header_wrapper{
+  padding: 50px;
+  margin-top: 8px;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  background-color:#f3d4b4;
+  /*border: 6px solid #DFCED9;
+  border-radius: 20px;*/
+
+}
+
+.logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 200px;
+}
+.below_header{
+  height: 500px;
+  padding: 50px;
+  margin-top: 30px;
+  border: 6px solid #58373E;
+  border-radius: 20px;
+  background-image: url('../images/header_below.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*Izblijedi sliku*/
+  z-index: 1;
+  background-color: hsla(0,0%,100%,0.20);
+  background-blend-mode: overlay;
+
+}
+.main_content{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #f3d4b4;
+}
+.prikaz{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.thumbnail{
+  border: 6px solid pink;
+  border-radius: 20px;
+  height: 425px;
+  width: auto;
+
+}
+.img-thumb{
+  width: auto;
+  height: 100px;
+}
+#footer{
+  margin-top: 70 px;
+}
+
+/*
+font-family: 'Pacifico', cursive;
+color: #ffffff;
+line-height: 27px;
+text-shadow: #c96d67 1px 1px 3px;
+margin: 10px 17px;
+*/
+/* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color: #58373E;
+    border: 0;
+    font-size: 15px;
+    letter-spacing: 4px;
+
+}
+
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* Aktivan link*/
+.navbar-nav li.active a {
+    color: #58373E !important;
+    background-color:#58373E !important;
+}
+
+/* Transparent za odabrane likove*/
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+
+.dropdown-menu{
+  background-color: #eae6fe;
+}
+
+/* Dropdown linkovi */
+.dropdown-menu li a {
+    color: #58373E !important;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f3d4b4 !important;
+}
+.caption{
+  height: 125px;
+}
+.adminpanel{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.admin-tablica-kategorija{
+  width: auto;
+}
+#top_button{
+  display: none;
+  position: fixed;
+}
